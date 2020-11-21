@@ -1,34 +1,25 @@
 {
-  "name": "instagram-parser",
-  "version": "0.1.0",
-  "private": false,
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "author": {
+        "email": "p.ebrahimi163@gmail.com",
+        "name": "Pouya Ebrahimi Kazaj"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "description": "Json Decode Instagram post parser with postId",
+    "keywords": [
+        "instagram",
+        "post",
+        "lifeweb",
+        "instagram-parser",
+        "instagram-json"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "scripts": {
+        "build": "webpack"
+    },
+    "license": "MIT",
+    "main": "./lib/InstagramParser.js",
+    "name": "lifeweb-instagram-parser",
+    "peerDependencies": {},
+    "version": "0.1.9"
 }
