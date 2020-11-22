@@ -3,8 +3,11 @@
         "email": "p.ebrahimi163@gmail.com",
         "name": "Pouya Ebrahimi Kazaj"
     },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/pebrahimi163/instagram-parser.git"
+    },
     "bundleDependencies": false,
-    "dependencies": {},
     "deprecated": false,
     "description": "Json Decode Instagram post parser with postId",
     "keywords": [
@@ -17,9 +20,18 @@
     "scripts": {
         "build": "webpack"
     },
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "path": "^0.12.7",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^3.2.1"
+    },
     "license": "MIT",
     "main": "./lib/InstagramParser.js",
     "name": "lifeweb-instagram-parser",
-    "peerDependencies": {},
-    "version": "0.1.9"
+    "version": "0.1.11"
 }
